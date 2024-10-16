@@ -151,7 +151,9 @@ module.exports = (env = {}) => {
         path: "./.env",
         systemvars: true,
       }),
-      new BundleAnalyzerPlugin(),
+      new BundleAnalyzerPlugin({
+        analyzerPort: 8889 
+      }),
       new CopyPlugin({
         patterns: [
           {
