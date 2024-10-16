@@ -111,9 +111,9 @@ export const expenses = {
   Delete: "/expense/deleteExpense",
 };
 
-export const downloadImageURL = "http://localhost:7004";
+// export const downloadImageURL = "http://localhost:7004";
 // export const downloadImageURL = "http://37.60.255.54:7004";
-// export const downloadImageURL = "http://82.180.147.10:7004";
+export const downloadImageURL = "http://82.180.147.10:7004";
 // export const downloadImageURL = "https://adarsh.roshnroys.com/api/";
 
 export const quotation = {
