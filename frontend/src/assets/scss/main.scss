@@ -1,0 +1,84 @@
+/****** UTILS ******/
+@import "utils/variables";
+@import "utils/mixins";
+
+/******* BASE *******/
+@import "base/reset";
+@import "base/typography";
+@import "base/colors"; 
+@import "base/base";
+@import "base/grid";
+
+/******* COMPONENTS ******/
+@import "components/button";
+
+
+/****** LAYOUT ******/
+@import "layout/avatar";
+@import "layout/boostrap";
+@import "layout/breadcrumb";
+@import "layout/calendar";
+@import "layout/chart";
+@import "layout/chat";
+@import "layout/components";
+@import "layout/datatable";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/loader";
+@import "layout/select";
+@import "layout/sidebar";
+@import "layout/nav-tab";
+@import "layout/notification";
+@import "layout/popup";
+@import "layout/table";
+@import "layout/index";
+
+/****** PAGES ******/
+@import "pages/add-invoice";
+@import "pages/add-customer";
+@import "pages/price-plan";
+@import "pages/ticket-kanban";
+@import "pages/alertify";
+@import "pages/blog";
+@import "pages/chat";
+@import "pages/common";
+@import "pages/filter-menu";
+@import "pages/dashboard";
+@import "pages/file-upload";
+@import "pages/invoice";
+@import "pages/email";
+@import "pages/ribbon";
+@import "pages/timeline";
+@import "pages/login";
+@import "pages/settings";
+@import "pages/layout-settings";
+@import "pages/form-wizard";
+@import "pages/invoice/bus-ticket.scss";
+@import "pages/invoice/car-booking-invoice.scss";
+@import "pages/invoice/cashreceipt-1.scss";
+@import "pages/invoice/cashreceipt-2.scss";
+@import "pages/invoice/cashreceipt-3.scss";
+@import "pages/invoice/cashreceipt-4.scss";
+@import "pages/invoice/coffee-shop.scss";
+@import "pages/invoice/domain-hosting.scss";
+@import "pages/invoice/ecommerce.scss";
+@import "pages/invoice/fitness-center.scss";
+@import "pages/invoice/flight-booking-invoice.scss";
+@import "pages/invoice/hotel-booking.scss";
+@import "pages/invoice/internet-billing.scss";
+@import "pages/invoice/medical.scss";
+@import "pages/invoice/moneyexchange.scss";
+@import "pages/invoice/moneyexchange.scss";
+@import "pages/invoice/movie-ticket-booking.scss";
+@import "pages/invoice/student-billing.scss";
+@import "pages/invoice/train-ticket-booking.scss";
+@import "pages/invoice/general-invoice-1.scss";
+@import "pages/invoice/general-invoice-2.scss";
+@import "pages/invoice/general-invoice-3.scss";
+@import "pages/invoice/general-invoice-4.scss";
+@import "pages/invoice/general-invoice-5.scss";
+@import "pages/invoice/invoice-templates.scss";
+@import "pages/signature.scss";
+@import "pages/signature-invoice.scss";
+@import "pages/notifications.scss";
+@import "pages/custom.scss";

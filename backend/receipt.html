@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="color-scheme" content="only">
+<title>Receipt</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body data-bgcolor="Body" style="margin:0; font-family: 'Times New Roman', Times, serif;   background: #eee; overflow-x:hidden;margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;" bgcolor="#FFFFFF">
+
+<span class="preheader-text" data-preheader-text style="color: transparent; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; visibility: hidden; width: 0; display: none; mso-hide: all;"></span>
+
+<div data-primary-font="Barlow" data-secondary-font="Rubik" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;"></div>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style=" width:100%;max-width:100%;padding:25px 0;background: #eee;">
+  <tr><!-- Outer Table -->
+    <td align="center" data-bgcolor="Body" bgcolor="#eee" data-composer>
+
+
+<table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row" role="presentation"  style="width:900px;max-width:900px;border:2px solid #d5d5d5;" data-module="blue-logo">
+  <!-- blue-logo -->
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" data-bgcolor="BgColor" class="container-padding">
+
+<table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row" role="presentation"  style="width:900px;max-width:900px;" data-module="blue-preface-16">
+  <!-- blue-preface-16 -->
+  <tr data-element="blue-logo" data-label="Logo">
+    <td>
+      <table style="width: 100%;padding: 30px 30px 15px;border-bottom: 1px solid #F2F2F2;">
+        <tr>
+          <td align="left" class="center-text">
+            <img style="width:200px;border:0px;display: inline!important;" src="{{invoice.invoiceLogo}}" width="200" border="0"  editable="true" data-icon data-image-edit data-url data-label="Logo" data-image-width alt="logo">
+          </td>
+          <td align="right" class="center-text">
+            <h2 style="font-size:24px;margin:0;">INVOICE</h2>
+            <h3 style="font-size:18px;margin:0;color: black;font-weight: 400;">Date:<span style="font-size:24px;margin:0 8px;color: #2c3038;font-weight: 700;"> {{invoice.invoiceDate}}</span> Invoice No: <span style="font-size:24px;margin:0 8px;font-weight: 700;color: #2c3038;">{{invoice.invoiceNumber}}</span></h3>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table style="width: 100%;padding: 25px 20px 10px;">
+        <tr>
+          <td>
+            <table>
+              <tr>
+                
+                <td align="left" style="width: 30%;vertical-align: top; border-left: 30px;">
+                  <h2 style="font-size:20px;display:block;margin:0 0 10px; color: black;font-weight: 400;"><b>Pay To:</b></h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.name}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.shippingAddress.addressLine1}},{{invoice.customerId.shippingAddress.city}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.shippingAddress.state}},{{invoice.customerId.shippingAddress.country}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.email}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.phone}}</h2>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" style="width: 30%;vertical-align: top; padding-top: 30px;">
+                  <h2 style="font-size:20px;display:block;margin:0 0 10px; color: black;font-weight: 400;"><b>Invoice To:</b></h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.name}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.shippingAddress.addressLine1}},{{invoice.customerId.shippingAddress.city}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.shippingAddress.state}},{{invoice.customerId.shippingAddress.country}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.email}}</h2>
+                  <h2 style="font-size:16px;display:block;margin:0 ; color: #2C3038;font-weight: 400;">{{invoice.customerId.phone}}</h2>
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+      
+        
+          <td align="right" style="width: 40%;vertical-align: top;">
+            <table style="width:100%">
+              <tr>
+                <td style="width:100%;text-align: right;font-size: 24px;color: #7638FF;padding: 0 0 10px;font-weight: 700;">{{invoice.companySettings.companyName}}</td>
+              </tr>
+              <tr>
+                <td style="width:100%;text-align: right;font-size: 14px;color: black;padding: 0 0 10px;font-weight: 400;"><b>Address: </b><span style="display: block;">{{invoice.companySettings.addressLine1}},{{invoice.companySettings.addressLine2}},{{invoice.companySettings.city}},{{invoice.companySettings.state}},{{invoice.companySettings.country}},{{invoice.companySettings.pincode}}</span></td>
+              </tr>
+              <tr>
+                <td style="width:100%;text-align: right;font-size: 14px;color: black;padding: 0 0 10px;font-weight: 400;"><b>Mobile: </b><span style="display: block;">{{invoice.companySettings.phone}}</span></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 20px 25px;">
+      <table style="width: 100%;padding: 25px 20px 10px; border-collapse: collapse;">
+        <thead style="background: #f2f2f2;color: #2c3038;padding: 10px 0;">
+          <tr>
+            <th style="padding: 15px;text-align: left;">#</th>
+            <th style="padding: 15px;text-align: left;">Item</th>
+            <th style="padding: 15px;text-align: left;">Qty</th>
+            <th style="padding: 15px;text-align: left;">Price ({{invoice.currency}})</th>
+            <th style="padding: 15px;text-align: left;">Tax Value ({{invoice.currency}})</th>
+            <th style="padding: 15px;text-align: left;">Discount ({{invoice.currency}})</th>
+            <th style="padding: 15px;text-align: left;">Total ({{invoice.currency}})</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each invoice.items}}
+          <tr>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.count}}</td>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.name}}</td>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.quantity}}</td>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.rate}}</td>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.tax}} ({{this.taxPercentage}}  %)	</td>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.discount}}	</td>
+            <td style="border-bottom:1px solid #d5d5d5;padding: 15px;color: #2c3038;font-weight: 500;">{{this.amount}}	</td>
+          </tr>
+          {{/each}}
+          <tr>
+            <td colspan="5" style="padding: 15px;color: #50525d;font-weight: 400;">Total Items / Qty : {{invoice.totalItems}} / {{invoice.totalqty}}</td>
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">Sub Total</td>
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">{{invoice.currency}} {{invoice.sub_total}}</td> <br>
+          </tr>
+          <tr>
+            <td colspan="5"></td>
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">Tax</td>
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;"> {{invoice.currency}} {{invoice.Tax}}</td><br>
+          </tr>
+          <tr>   
+            <td colspan="5"></td>         
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">Discount</td>
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">{{invoice.currency}} {{invoice.totalDiscount}}</td></tr>
+            <td colspan="5"></td>         
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">Roundoff Value</td>
+            <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">{{invoice.currency}} {{invoice.roundOffValue}}</td></tr>
+            <tr>   
+              <td colspan="5"></td>         
+              <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">Total</td>
+              <td style="padding: 10px;color: #2c3038;font-size: 15px;font-weight: 700;">{{invoice.currency}} {{invoice.TotalAmount}}</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr data-element="blue-logo" data-label="Logo">
+    <td>
+      <table style="width: 100%;padding: 0px 30px 15px;border-bottom: 1px solid #F2F2F2;">
+        <tr>
+          <td align="left" class="center-text" style="color: #555761;font-size: 15px;font-weight: 400;">
+           <b> Total amount ( in words): </b> <span style="color: #2c3038;">{{invoice.amountInWords}}.</span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table style="width: 100%;padding: 25px 20px;">
+        <tr>
+          <td align="left" style="width: 50%;">
+            <table style="width:100%">
+              <tr>
+                <h2 style="font-size:24px;font-weight:600;display:block;padding:0 0 10px;margin:0;"><b>Bank Details</b></h2>
+              </tr>
+              <tr>
+                <td style="color: black;font-size: 15px;padding: 0 0 5px;"><b>Name :</b><span style="color: #2c3038;">{{invoice.bank.bankName}}</span></td>
+              </tr>
+              <tr>
+                <td style="color:  black;font-size: 15px;padding: 0 0 5px;"><b>Account :</b><span style="color: #2c3038;">{{invoice.bank.accountNumber}}</span></td>
+              </tr>
+              <tr>
+                <td style="color:  black;font-size: 15px;padding: 0 0 5px;"><b>IFSC : </b><span style="color: #2c3038;">{{invoice.bank.IFSCCode}}</span></td>
+              </tr>
+              <tr>
+                <td style="color:  black;font-size: 15px;padding: 0 0 5px;"><b>BRANCH  : </b><span style="color: #2c3038;">{{invoice.bank.branch}}</span></td>
+              </tr>
+            </table>
+          </td>
+          <td align="right" style="width: 50%;padding: 0 20px;">
+            <table style="width:100%;border-collapse: collapse;text-align: right;">
+             <tr>
+                <td style="color: #50525d;font-size: 15px;padding: 0 0 5px;"><b>For Dreamguys</b></td>
+             </tr>
+             <tr>
+                <td style="color: #50525d;font-size: 15px;padding: 0 0 5px;">
+                  <img src="assets/img/signature.png" alt="">
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table style="width: 100%;padding: 20px 20px ;border-top:1px solid #d5d5d5">
+        <tr>
+          <td align="left" style="width: 50%;">
+            <table style="width:100%">
+              <tr>
+                <td style="color: #50525d;font-size: 15px;padding: 0 0 5px;">Terms and Conditions:</td>
+              </tr>
+              <tr>
+                <td style="color: #50525d;font-size: 15px;padding: 0 0 5px;">Goods Once sold cannot be taken back or exchanged</td>
+              </tr>
+              <tr>
+                <td style="color: #50525d;font-size: 15px;padding: 0 0 5px;">We are not the manufactures, company will stand for warrenty as per their terms and conditions.</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table style="width: 100%;padding: 20px 20px ;border-top:1px solid #d5d5d5;">
+        <tr>
+          <td align="left" style="width: 50%;">
+            <table style="width:100%">
+              <tr>
+                <td style="color: #50525d;font-size: 15px;text-align: center;">Thanks for your Business</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  
+  <!-- blue-preface-16 -->
+</table>
+<!-- blue-title -->
+
+    </td>
+  </tr><!-- Outer-Table -->
+</table>
+
+</body>
+</html>

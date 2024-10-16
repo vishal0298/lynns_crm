@@ -1,0 +1,47 @@
+import {
+  img18,
+  img19,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+} from "../../common/imagepath";
+
+export default {
+  Data: [
+    {
+      id: 5,
+      Invoice: "#4991",
+      Category: "Software",
+      Created: "12 May 2022",
+      Name: "Pricilla",
+      img: img18,
+      Email: "pricilla@example.com",
+      Total: "$5,54,220",
+      Paid: "$3,50,000",
+      Payment: "Cheque",
+      Balance: "$4,220",
+      Due: "18 May 2023",
+      Status: "Overdue",
+      Action: "",
+    },
+    {
+      id: 6,
+      Invoice: "#4992",
+      Category: "Stationary",
+      Created: "16 Nov 2022",
+      Name: "Randall",
+      img: img19,
+      Email: "randall@example.com",
+      Total: "$5,54,220",
+      Paid: "$6,50,000",
+      Payment: "Cash",
+      Balance: "$4,220",
+      Due: "25 Feb 2023",
+      Status: "Overdue",
+      Action: "",
+    },
+  ],
+};
