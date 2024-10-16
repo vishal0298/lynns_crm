@@ -21,8 +21,8 @@ module.exports = (env = {}) => {
   const isProduction = env.NODE_ENV === "production";
   // const apiUrl = isProduction ? envVars?.REACT_APP_BACKEND_URL : 'http://localhost:7004/';
   // const apiUrl = isProduction ? envVars?.REACT_APP_BACKEND_URL : 'http://37.60.255.54:7004/';
-  const apiUrl = isProduction ? envVars?.REACT_APP_BACKEND_URL : 'http://82.180.147.10:7004';
-  // const apiUrl = isProduction ? envVars?.REACT_APP_BACKEND_URL : 'https://adarsh.roshnroys.com/api/';
+  // const apiUrl = isProduction ? envVars?.REACT_APP_BACKEND_URL : 'http://82.180.147.10:7004';
+  const apiUrl = isProduction ? envVars?.REACT_APP_BACKEND_URL : 'https://lynns.roshnroys.com/api/';
   return {
     mode: isProduction ? "production" : "development",
     entry: {
@@ -36,15 +36,15 @@ module.exports = (env = {}) => {
       port: 3001,
       open: true, // Automatically open the browser
       historyApiFallback: true,
-      allowedHosts: ['adarsh.roshnroys.com'],
+      allowedHosts: ['lynns.roshnroys.com'],
     },
     externals: {
       // global app config object
       config: JSON.stringify({
         // API_URL: apiUrl || 'http://localhost:7004/',
         // API_URL: apiUrl || 'http://37.60.255.54:7004/',
-        API_URL: apiUrl || 'http://82.180.147.10:7004',
-        // API_URL: apiUrl || 'https://adarsh.roshnroys.com/api/',
+        // API_URL: apiUrl || 'http://82.180.147.10:7004',
+        API_URL: apiUrl || 'https://lynns.roshnroys.com/api/',
         imageapiUrl: "",
         publicPath: "/",
       }),
