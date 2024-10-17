@@ -9,7 +9,7 @@ exports.userSeeding = async () => {
       return;
     } else {
       // const hashedPassword = bcrypt.hashSync("Dgt@2023", 8);
-      const hashedPasswordAdmin=bcrypt.hashSync(" Lynns123@#", 8);
+      const hashedPasswordAdmin=bcrypt.hashSync("Lynns123@#", 8);
 
       const usersToCreate = [
         // {
