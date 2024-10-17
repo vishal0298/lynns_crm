@@ -27,8 +27,8 @@ const AdminLogin = () => {
   } = useForm({
     resolver: yupResolver(loginFormScheme),
     defaultValues: {
-      email: "adarsh@roshnroys.com",
-      password: "Aprdesk121@#",
+      email: "lynns@roshnroys.com",
+      password: " Lynns123@#",
     },
   });
 

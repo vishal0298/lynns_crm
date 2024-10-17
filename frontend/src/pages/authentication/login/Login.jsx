@@ -202,8 +202,8 @@ const Login = () => {
                           onClick={() => {
                             // setValue("email", "admin@lynnstechnologies.com");
                             // setValue("password", "Demo123$");
-                            setValue("email", "adarsh@roshnroys.com");
-                            setValue("password", "Aprdesk121@#");
+                            setValue("email", "lynns@roshnroys.com");
+                            setValue("password", " Lynns123@#");
                           }}
                         >
                           {" "}
